@@ -2,4 +2,15 @@
     h1{
         font-size: 3.5em;
     }
+
+    /**** Recipe - Section ****/
+
+    .card{
+        flex-wrap: wrap;
+        height: 400px;
+    }
+
+    .bottom-card > ul {
+        flex-direction: column;
+    }
 }
