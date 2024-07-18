@@ -12,7 +12,6 @@
 }
 
 body{
-    background-color: rgb(240, 229, 211);
     min-width: 400px;
 }
 
@@ -20,6 +19,9 @@ h1{
     text-align: center;
 }
 
+ul{
+    list-style-type: none;
+}
 
 /*----------
    Header
@@ -47,13 +49,26 @@ header{
 ------------*/
 main{
     padding: 100px 40px 20px 40px;
+    background-color: rgb(244, 239, 230);
 }
-
 
 #top-text p{
     color: gray;
-
 }
+
+#top-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.title-recipe{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
 
 
