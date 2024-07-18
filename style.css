@@ -10,6 +10,15 @@
     margin: 0 auto;
 }
 
+body{
+    background-color: rgb(240, 229, 211);
+    min-width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
 
 /*----------
    Header
@@ -17,11 +26,21 @@
 
 .nerko-one {
     font-family: "Nerko One", cursive;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
+    color: orange;
+    text-shadow: 1px 1px 2px black;
   }
 
-h1{
-    color: orange;
+header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
 }
+
+
+
   
