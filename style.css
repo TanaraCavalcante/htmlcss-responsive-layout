@@ -11,6 +11,7 @@
     padding: 10px 40px;
 }
 
+
 body{
     min-width: 500px;
     font-family: 'Montserrat';
@@ -47,6 +48,9 @@ ul{
     display: none;
 }
 
+.border{
+    border: 1px dashed red;
+}
 
 /*--Buttons--*/
 .btn{
@@ -150,7 +154,7 @@ iframe{
     height: 360px;
 }
 .midle-card{
-    margin: 10px 30px;
+    margin: 10px 20px;
     padding: 10px;
     background-color:rgb(244, 239, 230);
     display: flex;
@@ -166,6 +170,25 @@ iframe{
 .cal-info :last-child{
     color: orange;
  }
+
+ .bottom-card{
+    margin: 0 20px 20px 20px;
+ }
+
+.bottom-card > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom-card > ul > li{
+    display: flex;
+    gap: 5px;
+}
+
+.bottom-card i{
+    color: orange;
+}
 
  
 

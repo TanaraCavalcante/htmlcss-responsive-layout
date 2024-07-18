@@ -13,9 +13,9 @@
     h3{
         font-size: 2em;
     }
-    
+
     p, a, span{
-        font-size: 16px;
+        font-size: 14px;
     }
     
     /*-------------
@@ -31,4 +31,18 @@
         display: flex;
     }
 
+    /***Recipe Section***/
+
+    .iframe{
+        height: 380px;
+    }
+
+    .bottom-card > ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .bottom-card > ul > li{
+        flex-basis: calc(100% / 3 - 20px);
+    }
 }
