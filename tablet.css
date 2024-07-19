@@ -29,10 +29,6 @@
 
     /***Recipe Section***/
 
-    .iframe{
-        height: 380px;
-    }
-
     .bottom-card > ul {
         flex-direction: row;
         flex-wrap: wrap;
